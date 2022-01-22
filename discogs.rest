@@ -1,0 +1,11 @@
+GET https://api.discogs.com/database/search?q=Nirvana&type=artist
+Authorization: Discogs token=LqXFmMYSllUgcVDXbLarAqGYjDhEaTdkNVQdrsFg
+###
+GET https://api.discogs.com/artists/2365701/releases?sort=year
+Authorization: Discogs token=LqXFmMYSllUgcVDXbLarAqGYjDhEaTdkNVQdrsFg
+###
+GET https://api.discogs.com/masters/865928/versions
+Authorization: Discogs token=LqXFmMYSllUgcVDXbLarAqGYjDhEaTdkNVQdrsFg
+###
+PUT https://api.discogs.com/users/i2m/wants/1755740
+Authorization: Discogs token=LqXFmMYSllUgcVDXbLarAqGYjDhEaTdkNVQdrsFg
